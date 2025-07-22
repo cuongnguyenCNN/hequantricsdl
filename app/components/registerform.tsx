@@ -21,8 +21,22 @@ export default function RegisterForm() {
   const handleSubmit = async (e: React.ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // Đây là nơi bạn xử lý gửi form đến Google Forms hoặc API backend
-    // Giả sử gửi thành công:
+    try {
+      await fetch(
+        "https://script.google.com/macros/s/AKfycbz8nwxN48uln9SpIy_D2VuNwbOqPCnWkRXagodZ6lhfnmD8qYbFIGXFx1ZMHbUbGVgVhg/exec",
+        {
+          method: "POST",
+          body: JSON.stringify(formData),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      setSubmitted(true);
+    } catch (err) {
+      console.error("Gửi dữ liệu thất bại", err);
+    }
     setSubmitted(true);
   };
 
