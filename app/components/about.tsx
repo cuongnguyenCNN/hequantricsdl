@@ -8,7 +8,7 @@ export default function About() {
           Về Khóa Học
         </h2>
         <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-          Khóa học <strong>"Tạo Hệ Quản Trị Cơ Sở Dữ Liệu"</strong> sẽ giúp bạn
+          Khóa học <strong>Tạo Hệ Quản Trị Cơ Sở Dữ Liệu</strong> sẽ giúp bạn
           hiểu rõ từ nền tảng đến nâng cao về cách thiết kế, xây dựng và quản lý
           hệ quản trị cơ sở dữ liệu như MySQL, PostgreSQL, SQL Server...
         </p>
