@@ -19,7 +19,7 @@ export default function Home() {
       <About></About>
       <Learn></Learn>
       <Curriculum></Curriculum>
-      <Instructor></Instructor>
+      {/* <Instructor></Instructor> */}
       <Schedule></Schedule>
       <Guarantee></Guarantee>
       <RegisterForm></RegisterForm>
