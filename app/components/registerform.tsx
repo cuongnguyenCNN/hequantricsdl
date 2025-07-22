@@ -22,10 +22,12 @@ export default function RegisterForm() {
     e.preventDefault();
 
     try {
+      debugger;
       await fetch(
-        "https://script.google.com/macros/s/AKfycbz8nwxN48uln9SpIy_D2VuNwbOqPCnWkRXagodZ6lhfnmD8qYbFIGXFx1ZMHbUbGVgVhg/exec",
+        "https://script.google.com/macros/s/AKfycbwO77ySThZFfENRzk9pio60jo3fRmY1N9iIkAn-bydMsRlsj-lVH0vwbjstjB5iN-O2/exec",
         {
           method: "POST",
+          mode: "no-cors",
           body: JSON.stringify(formData),
           headers: {
             "Content-Type": "application/json",
