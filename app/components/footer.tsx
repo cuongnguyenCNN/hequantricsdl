@@ -19,7 +19,6 @@ export default function Footer() {
                 khoahoc@csdl.vn
               </a>
             </li>
-            <li>Hotline: 0988 123 456</li>
             <li>
               Facebook:{" "}
               <a href="https://fb.me/khoahoccsdl" className="hover:underline">

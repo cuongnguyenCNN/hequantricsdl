@@ -11,6 +11,7 @@ import Guarantee from "./components/guarantee";
 import RegisterForm from "./components/registerform";
 import FAQ from "./components/faq";
 import Footer from "./components/footer";
+import Projects from "./components/project";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Guarantee></Guarantee>
       <RegisterForm></RegisterForm>
       <FAQ></FAQ>
+      <Projects></Projects>
       <Footer></Footer>
     </div>
   );
