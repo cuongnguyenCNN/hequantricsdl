@@ -19,11 +19,11 @@ const faqs = [
     answer:
       "Có. Bạn sẽ được hỗ trợ trong suốt và sau khóa học qua nhóm cộng đồng học viên và kênh chat riêng với giảng viên.",
   },
-  {
-    question: "Khóa học có hoàn tiền nếu không hài lòng?",
-    answer:
-      "Chúng tôi cam kết hoàn tiền 100% trong vòng 7 ngày nếu bạn cảm thấy khóa học không phù hợp.",
-  },
+  // {
+  //   question: "Khóa học có hoàn tiền nếu không hài lòng?",
+  //   answer:
+  //     "Chúng tôi cam kết hoàn tiền 100% trong vòng 7 ngày nếu bạn cảm thấy khóa học không phù hợp.",
+  // },
 ];
 
 export default function FAQ() {

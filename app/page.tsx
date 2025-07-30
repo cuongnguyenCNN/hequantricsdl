@@ -22,7 +22,7 @@ export default function Home() {
       <Curriculum></Curriculum>
       {/* <Instructor></Instructor> */}
       <Schedule></Schedule>
-      <Guarantee></Guarantee>
+      {/* <Guarantee></Guarantee> */}
       <RegisterForm></RegisterForm>
       <FAQ></FAQ>
       <Projects></Projects>
